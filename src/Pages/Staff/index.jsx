@@ -110,7 +110,7 @@ function Staff() {
             <Button type="primary" icon={<PlusOutlined/>}>Thêm phòng ban</Button>
         </Space>
         <Space>
-            <Table style={{width: '70vw', overflow: 'auto'}} dataSource={data}>
+            <Table style={{width: '72vw', overflow: 'auto'}} dataSource={data} scroll={{x: 1500}}>
                 <Column title="&nbsp;"
                 key="action"
                 render={(_, record) => (
